@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        .chalamus {
+            width: 30%;
+            height: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotating Toilet</title>
-    <link rel="stylesheet" href="style.css">
+    <title>chalamus</title>
 </head>
 <body>
-    <canvas id="bg"></canvas>
-    <script src="three.js"></script>
-    <script src="TweenMax.min.js"></script>    
-    <script src="main.js"></script>
+    <script>
+        let audio = new Audio('flush.mp3');
+        addEventListener('click', (event) => {});
+        onclick = (event) => {
+            audio.play();
+        };
+    </script>
+    <img class="chalamus" id="chalamus" src="chalamus.jpg">
 </body>
 </html>
